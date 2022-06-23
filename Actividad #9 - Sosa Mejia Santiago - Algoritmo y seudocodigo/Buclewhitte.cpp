@@ -1,18 +1,16 @@
 #include <iostream>
-
 using namespace std;
 
-int main ()
+int main()
 {
-    cout<<"Ejemplo de bucle while";
+    cout << "Ejemplo del bucle do while" << endl;
+    int cont = 10;
+    int tabla = 5;
 
-    int i = 0;
-    while (1 < 10)
-    {
-        i++;
-        cout<<endl<<"Mensaje a :"<< i;
-        cout<<endl<<"El cuadrado de i: "<<(i * i);
+    do {
+        cout << tabla << " \033[1;34mx\033[0m " << cont << " \033[1;31m=\033[0m " << (tabla * cont) << endl;
+        cont --;
     }
-    return 0;
+    while (cont >= 1);
 
 }
