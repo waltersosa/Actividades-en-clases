@@ -2,4 +2,5 @@ No ha utilizado el archivo .gitignore
 Error en archivo Buclewhitte.cpp (la condición no debe ser: while (1 <10))
 No ha solucionado el ejercicio variastablas.cpp
 
-Calificación: 1.8/3.0
+- VariasTablas: el proceso debe calcular cada tabla y solo finalizar cuando la tabla sea cero.
+Calificación: 2.0/3.0
